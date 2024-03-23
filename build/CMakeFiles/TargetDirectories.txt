@@ -1,0 +1,17 @@
+/home/liangyue/project/yly/DeepSDF/build/CMakeFiles/PreprocessMesh.dir
+/home/liangyue/project/yly/DeepSDF/build/CMakeFiles/SampleVisibleMeshSurface.dir
+/home/liangyue/project/yly/DeepSDF/build/CMakeFiles/edit_cache.dir
+/home/liangyue/project/yly/DeepSDF/build/CMakeFiles/rebuild_cache.dir
+/home/liangyue/project/yly/DeepSDF/build/CMakeFiles/list_install_components.dir
+/home/liangyue/project/yly/DeepSDF/build/CMakeFiles/install.dir
+/home/liangyue/project/yly/DeepSDF/build/CMakeFiles/install/local.dir
+/home/liangyue/project/yly/DeepSDF/build/CMakeFiles/install/strip.dir
+/home/liangyue/project/yly/DeepSDF/build/third-party/cnpy/CMakeFiles/cnpy.dir
+/home/liangyue/project/yly/DeepSDF/build/third-party/cnpy/CMakeFiles/cnpy-static.dir
+/home/liangyue/project/yly/DeepSDF/build/third-party/cnpy/CMakeFiles/example1.dir
+/home/liangyue/project/yly/DeepSDF/build/third-party/cnpy/CMakeFiles/edit_cache.dir
+/home/liangyue/project/yly/DeepSDF/build/third-party/cnpy/CMakeFiles/rebuild_cache.dir
+/home/liangyue/project/yly/DeepSDF/build/third-party/cnpy/CMakeFiles/list_install_components.dir
+/home/liangyue/project/yly/DeepSDF/build/third-party/cnpy/CMakeFiles/install.dir
+/home/liangyue/project/yly/DeepSDF/build/third-party/cnpy/CMakeFiles/install/local.dir
+/home/liangyue/project/yly/DeepSDF/build/third-party/cnpy/CMakeFiles/install/strip.dir
