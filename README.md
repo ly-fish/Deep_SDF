@@ -1,3 +1,4 @@
+# Environment setup
 ## Dependencies
 #### 1. CLI11
 https://github.com/CLIUtils/CLI11/releases?page=2
@@ -52,4 +53,6 @@ cmake ..
 make
 sudo make install
 ```
+#### 5.deepSDF compile
+
 
