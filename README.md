@@ -54,5 +54,13 @@ make
 sudo make install
 ```
 #### 5.deepSDF compile
+```
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+
+```
 
 
