@@ -62,6 +62,9 @@ make
 sudo make install
 
 ```
+#### 6.Dataset
+1. Original Dataset: https://huggingface.co/datasets/ShapeNet/ShapeNetCore
+2. Pre-processed dataset: https://cloud.tsinghua.edu.cn/d/fc0f8f8a63974990a4a5/
 #### 6.Dataset layout
 ```
 <data_source_name>/
