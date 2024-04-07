@@ -62,5 +62,18 @@ make
 sudo make install
 
 ```
+#### 6.Dataset layout
+```
+<data_source_name>/
+    .datasources.json
+    SdfSamples/
+        <dataset_name>/
+            <class_name>/
+                <instance_name>.npz
+    SurfaceSamples/
+        <dataset_name>/
+            <class_name>/
+                <instance_name>.ply
+```
 
 
