@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/liangyue/project/yly/DeepSDF/third-party/cnpy/cnpy.cpp" "third-party/cnpy/CMakeFiles/cnpy.dir/cnpy.cpp.o" "gcc" "third-party/cnpy/CMakeFiles/cnpy.dir/cnpy.cpp.o.d"
+  "/home/liangyue/yly_ws/Deep_SDF/third-party/cnpy/cnpy.cpp" "third-party/cnpy/CMakeFiles/cnpy.dir/cnpy.cpp.o" "gcc" "third-party/cnpy/CMakeFiles/cnpy.dir/cnpy.cpp.o.d"
   )
 
 # Targets to which this target links.

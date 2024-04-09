@@ -1,7 +1,7 @@
 third-party/cnpy/CMakeFiles/cnpy-static.dir/cnpy.cpp.o: \
- /home/liangyue/project/yly/DeepSDF/third-party/cnpy/cnpy.cpp \
+ /home/liangyue/yly_ws/Deep_SDF/third-party/cnpy/cnpy.cpp \
  /usr/include/stdc-predef.h \
- /home/liangyue/project/yly/DeepSDF/third-party/cnpy/cnpy.h \
+ /home/liangyue/yly_ws/Deep_SDF/third-party/cnpy/cnpy.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

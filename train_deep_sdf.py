@@ -330,8 +330,8 @@ def main_function(experiment_directory, continue_from, batch_split):
 
     logging.info("training with {} GPU(s)".format(torch.cuda.device_count()))
 
-    # if torch.cuda.device_count() > 1:
-    decoder = torch.nn.DataParallel(decoder)
+    if torch.cuda.device_count() > 1:
+        decoder = torch.nn.DataParallel(decoder)
 
     num_epochs = specs["NumEpochs"]
     log_frequency = get_spec_with_default(specs, "LogFrequency", 10)
@@ -449,6 +449,8 @@ def main_function(experiment_directory, continue_from, batch_split):
         )
     )
 
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
     for epoch in range(start_epoch, num_epochs + 1):
 
         start = time.time()
@@ -490,7 +492,9 @@ def main_function(experiment_directory, continue_from, batch_split):
 
                 batch_vecs = lat_vecs(indices[i])
 
-                input = torch.cat([batch_vecs, xyz[i]], dim=1)
+                input = torch.cat([batch_vecs, xyz[i]], dim=1).cuda()
+
+                #input.to(device)
 
                 # NN optimization
                 pred_sdf = decoder(input)
@@ -499,6 +503,8 @@ def main_function(experiment_directory, continue_from, batch_split):
                     pred_sdf = torch.clamp(pred_sdf, minT, maxT)
 
                 chunk_loss = loss_l1(pred_sdf, sdf_gt[i].cuda()) / num_sdf_samples
+
+
 
                 if do_code_regularization:
                     l2_size_loss = torch.sum(torch.norm(batch_vecs, dim=1))

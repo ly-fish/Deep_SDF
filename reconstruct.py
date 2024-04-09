@@ -165,7 +165,7 @@ if __name__ == "__main__":
 
     decoder = arch.Decoder(latent_size, **specs["NetworkSpecs"])
 
-    decoder = torch.nn.DataParallel(decoder)
+    # decoder = torch.nn.DataParallel(decoder)
 
     saved_model_state = torch.load(
         os.path.join(
@@ -176,7 +176,7 @@ if __name__ == "__main__":
 
     decoder.load_state_dict(saved_model_state["model_state_dict"])
 
-    decoder = decoder.module.cuda()
+    decoder = decoder.cuda()
 
     with open(args.split_filename, "r") as f:
         split = json.load(f)

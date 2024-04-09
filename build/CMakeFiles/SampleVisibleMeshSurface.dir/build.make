@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liangyue/project/yly/DeepSDF
+CMAKE_SOURCE_DIR = /home/liangyue/yly_ws/Deep_SDF
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liangyue/project/yly/DeepSDF/build
+CMAKE_BINARY_DIR = /home/liangyue/yly_ws/Deep_SDF/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SampleVisibleMeshSurface.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/SampleVisibleMeshSurface.dir/flags.make
 CMakeFiles/SampleVisibleMeshSurface.dir/src/SampleVisibleMeshSurface.cpp.o: CMakeFiles/SampleVisibleMeshSurface.dir/flags.make
 CMakeFiles/SampleVisibleMeshSurface.dir/src/SampleVisibleMeshSurface.cpp.o: ../src/SampleVisibleMeshSurface.cpp
 CMakeFiles/SampleVisibleMeshSurface.dir/src/SampleVisibleMeshSurface.cpp.o: CMakeFiles/SampleVisibleMeshSurface.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liangyue/project/yly/DeepSDF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SampleVisibleMeshSurface.dir/src/SampleVisibleMeshSurface.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SampleVisibleMeshSurface.dir/src/SampleVisibleMeshSurface.cpp.o -MF CMakeFiles/SampleVisibleMeshSurface.dir/src/SampleVisibleMeshSurface.cpp.o.d -o CMakeFiles/SampleVisibleMeshSurface.dir/src/SampleVisibleMeshSurface.cpp.o -c /home/liangyue/project/yly/DeepSDF/src/SampleVisibleMeshSurface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liangyue/yly_ws/Deep_SDF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SampleVisibleMeshSurface.dir/src/SampleVisibleMeshSurface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SampleVisibleMeshSurface.dir/src/SampleVisibleMeshSurface.cpp.o -MF CMakeFiles/SampleVisibleMeshSurface.dir/src/SampleVisibleMeshSurface.cpp.o.d -o CMakeFiles/SampleVisibleMeshSurface.dir/src/SampleVisibleMeshSurface.cpp.o -c /home/liangyue/yly_ws/Deep_SDF/src/SampleVisibleMeshSurface.cpp
 
 CMakeFiles/SampleVisibleMeshSurface.dir/src/SampleVisibleMeshSurface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SampleVisibleMeshSurface.dir/src/SampleVisibleMeshSurface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liangyue/project/yly/DeepSDF/src/SampleVisibleMeshSurface.cpp > CMakeFiles/SampleVisibleMeshSurface.dir/src/SampleVisibleMeshSurface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liangyue/yly_ws/Deep_SDF/src/SampleVisibleMeshSurface.cpp > CMakeFiles/SampleVisibleMeshSurface.dir/src/SampleVisibleMeshSurface.cpp.i
 
 CMakeFiles/SampleVisibleMeshSurface.dir/src/SampleVisibleMeshSurface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SampleVisibleMeshSurface.dir/src/SampleVisibleMeshSurface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liangyue/project/yly/DeepSDF/src/SampleVisibleMeshSurface.cpp -o CMakeFiles/SampleVisibleMeshSurface.dir/src/SampleVisibleMeshSurface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liangyue/yly_ws/Deep_SDF/src/SampleVisibleMeshSurface.cpp -o CMakeFiles/SampleVisibleMeshSurface.dir/src/SampleVisibleMeshSurface.cpp.s
 
 CMakeFiles/SampleVisibleMeshSurface.dir/src/ShaderProgram.cpp.o: CMakeFiles/SampleVisibleMeshSurface.dir/flags.make
 CMakeFiles/SampleVisibleMeshSurface.dir/src/ShaderProgram.cpp.o: ../src/ShaderProgram.cpp
 CMakeFiles/SampleVisibleMeshSurface.dir/src/ShaderProgram.cpp.o: CMakeFiles/SampleVisibleMeshSurface.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liangyue/project/yly/DeepSDF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SampleVisibleMeshSurface.dir/src/ShaderProgram.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SampleVisibleMeshSurface.dir/src/ShaderProgram.cpp.o -MF CMakeFiles/SampleVisibleMeshSurface.dir/src/ShaderProgram.cpp.o.d -o CMakeFiles/SampleVisibleMeshSurface.dir/src/ShaderProgram.cpp.o -c /home/liangyue/project/yly/DeepSDF/src/ShaderProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liangyue/yly_ws/Deep_SDF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SampleVisibleMeshSurface.dir/src/ShaderProgram.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SampleVisibleMeshSurface.dir/src/ShaderProgram.cpp.o -MF CMakeFiles/SampleVisibleMeshSurface.dir/src/ShaderProgram.cpp.o.d -o CMakeFiles/SampleVisibleMeshSurface.dir/src/ShaderProgram.cpp.o -c /home/liangyue/yly_ws/Deep_SDF/src/ShaderProgram.cpp
 
 CMakeFiles/SampleVisibleMeshSurface.dir/src/ShaderProgram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SampleVisibleMeshSurface.dir/src/ShaderProgram.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liangyue/project/yly/DeepSDF/src/ShaderProgram.cpp > CMakeFiles/SampleVisibleMeshSurface.dir/src/ShaderProgram.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liangyue/yly_ws/Deep_SDF/src/ShaderProgram.cpp > CMakeFiles/SampleVisibleMeshSurface.dir/src/ShaderProgram.cpp.i
 
 CMakeFiles/SampleVisibleMeshSurface.dir/src/ShaderProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SampleVisibleMeshSurface.dir/src/ShaderProgram.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liangyue/project/yly/DeepSDF/src/ShaderProgram.cpp -o CMakeFiles/SampleVisibleMeshSurface.dir/src/ShaderProgram.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liangyue/yly_ws/Deep_SDF/src/ShaderProgram.cpp -o CMakeFiles/SampleVisibleMeshSurface.dir/src/ShaderProgram.cpp.s
 
 CMakeFiles/SampleVisibleMeshSurface.dir/src/Utils.cpp.o: CMakeFiles/SampleVisibleMeshSurface.dir/flags.make
 CMakeFiles/SampleVisibleMeshSurface.dir/src/Utils.cpp.o: ../src/Utils.cpp
 CMakeFiles/SampleVisibleMeshSurface.dir/src/Utils.cpp.o: CMakeFiles/SampleVisibleMeshSurface.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liangyue/project/yly/DeepSDF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SampleVisibleMeshSurface.dir/src/Utils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SampleVisibleMeshSurface.dir/src/Utils.cpp.o -MF CMakeFiles/SampleVisibleMeshSurface.dir/src/Utils.cpp.o.d -o CMakeFiles/SampleVisibleMeshSurface.dir/src/Utils.cpp.o -c /home/liangyue/project/yly/DeepSDF/src/Utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liangyue/yly_ws/Deep_SDF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SampleVisibleMeshSurface.dir/src/Utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SampleVisibleMeshSurface.dir/src/Utils.cpp.o -MF CMakeFiles/SampleVisibleMeshSurface.dir/src/Utils.cpp.o.d -o CMakeFiles/SampleVisibleMeshSurface.dir/src/Utils.cpp.o -c /home/liangyue/yly_ws/Deep_SDF/src/Utils.cpp
 
 CMakeFiles/SampleVisibleMeshSurface.dir/src/Utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SampleVisibleMeshSurface.dir/src/Utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liangyue/project/yly/DeepSDF/src/Utils.cpp > CMakeFiles/SampleVisibleMeshSurface.dir/src/Utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liangyue/yly_ws/Deep_SDF/src/Utils.cpp > CMakeFiles/SampleVisibleMeshSurface.dir/src/Utils.cpp.i
 
 CMakeFiles/SampleVisibleMeshSurface.dir/src/Utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SampleVisibleMeshSurface.dir/src/Utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liangyue/project/yly/DeepSDF/src/Utils.cpp -o CMakeFiles/SampleVisibleMeshSurface.dir/src/Utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liangyue/yly_ws/Deep_SDF/src/Utils.cpp -o CMakeFiles/SampleVisibleMeshSurface.dir/src/Utils.cpp.s
 
 # Object files for target SampleVisibleMeshSurface
 SampleVisibleMeshSurface_OBJECTS = \
@@ -147,7 +147,7 @@ SampleVisibleMeshSurface_EXTERNAL_OBJECTS =
 ../bin/SampleVisibleMeshSurface: /usr/lib/x86_64-linux-gnu/libjpeg.so
 ../bin/SampleVisibleMeshSurface: /usr/lib/x86_64-linux-gnu/libz.so
 ../bin/SampleVisibleMeshSurface: CMakeFiles/SampleVisibleMeshSurface.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liangyue/project/yly/DeepSDF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/SampleVisibleMeshSurface"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liangyue/yly_ws/Deep_SDF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/SampleVisibleMeshSurface"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SampleVisibleMeshSurface.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -159,6 +159,6 @@ CMakeFiles/SampleVisibleMeshSurface.dir/clean:
 .PHONY : CMakeFiles/SampleVisibleMeshSurface.dir/clean
 
 CMakeFiles/SampleVisibleMeshSurface.dir/depend:
-	cd /home/liangyue/project/yly/DeepSDF/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liangyue/project/yly/DeepSDF /home/liangyue/project/yly/DeepSDF /home/liangyue/project/yly/DeepSDF/build /home/liangyue/project/yly/DeepSDF/build /home/liangyue/project/yly/DeepSDF/build/CMakeFiles/SampleVisibleMeshSurface.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liangyue/yly_ws/Deep_SDF/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liangyue/yly_ws/Deep_SDF /home/liangyue/yly_ws/Deep_SDF /home/liangyue/yly_ws/Deep_SDF/build /home/liangyue/yly_ws/Deep_SDF/build /home/liangyue/yly_ws/Deep_SDF/build/CMakeFiles/SampleVisibleMeshSurface.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SampleVisibleMeshSurface.dir/depend
 

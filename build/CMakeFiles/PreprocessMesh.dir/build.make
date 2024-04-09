@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liangyue/project/yly/DeepSDF
+CMAKE_SOURCE_DIR = /home/liangyue/yly_ws/Deep_SDF
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liangyue/project/yly/DeepSDF/build
+CMAKE_BINARY_DIR = /home/liangyue/yly_ws/Deep_SDF/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PreprocessMesh.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/PreprocessMesh.dir/flags.make
 CMakeFiles/PreprocessMesh.dir/src/PreprocessMesh.cpp.o: CMakeFiles/PreprocessMesh.dir/flags.make
 CMakeFiles/PreprocessMesh.dir/src/PreprocessMesh.cpp.o: ../src/PreprocessMesh.cpp
 CMakeFiles/PreprocessMesh.dir/src/PreprocessMesh.cpp.o: CMakeFiles/PreprocessMesh.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liangyue/project/yly/DeepSDF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PreprocessMesh.dir/src/PreprocessMesh.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PreprocessMesh.dir/src/PreprocessMesh.cpp.o -MF CMakeFiles/PreprocessMesh.dir/src/PreprocessMesh.cpp.o.d -o CMakeFiles/PreprocessMesh.dir/src/PreprocessMesh.cpp.o -c /home/liangyue/project/yly/DeepSDF/src/PreprocessMesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liangyue/yly_ws/Deep_SDF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PreprocessMesh.dir/src/PreprocessMesh.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PreprocessMesh.dir/src/PreprocessMesh.cpp.o -MF CMakeFiles/PreprocessMesh.dir/src/PreprocessMesh.cpp.o.d -o CMakeFiles/PreprocessMesh.dir/src/PreprocessMesh.cpp.o -c /home/liangyue/yly_ws/Deep_SDF/src/PreprocessMesh.cpp
 
 CMakeFiles/PreprocessMesh.dir/src/PreprocessMesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PreprocessMesh.dir/src/PreprocessMesh.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liangyue/project/yly/DeepSDF/src/PreprocessMesh.cpp > CMakeFiles/PreprocessMesh.dir/src/PreprocessMesh.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liangyue/yly_ws/Deep_SDF/src/PreprocessMesh.cpp > CMakeFiles/PreprocessMesh.dir/src/PreprocessMesh.cpp.i
 
 CMakeFiles/PreprocessMesh.dir/src/PreprocessMesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PreprocessMesh.dir/src/PreprocessMesh.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liangyue/project/yly/DeepSDF/src/PreprocessMesh.cpp -o CMakeFiles/PreprocessMesh.dir/src/PreprocessMesh.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liangyue/yly_ws/Deep_SDF/src/PreprocessMesh.cpp -o CMakeFiles/PreprocessMesh.dir/src/PreprocessMesh.cpp.s
 
 CMakeFiles/PreprocessMesh.dir/src/ShaderProgram.cpp.o: CMakeFiles/PreprocessMesh.dir/flags.make
 CMakeFiles/PreprocessMesh.dir/src/ShaderProgram.cpp.o: ../src/ShaderProgram.cpp
 CMakeFiles/PreprocessMesh.dir/src/ShaderProgram.cpp.o: CMakeFiles/PreprocessMesh.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liangyue/project/yly/DeepSDF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PreprocessMesh.dir/src/ShaderProgram.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PreprocessMesh.dir/src/ShaderProgram.cpp.o -MF CMakeFiles/PreprocessMesh.dir/src/ShaderProgram.cpp.o.d -o CMakeFiles/PreprocessMesh.dir/src/ShaderProgram.cpp.o -c /home/liangyue/project/yly/DeepSDF/src/ShaderProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liangyue/yly_ws/Deep_SDF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PreprocessMesh.dir/src/ShaderProgram.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PreprocessMesh.dir/src/ShaderProgram.cpp.o -MF CMakeFiles/PreprocessMesh.dir/src/ShaderProgram.cpp.o.d -o CMakeFiles/PreprocessMesh.dir/src/ShaderProgram.cpp.o -c /home/liangyue/yly_ws/Deep_SDF/src/ShaderProgram.cpp
 
 CMakeFiles/PreprocessMesh.dir/src/ShaderProgram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PreprocessMesh.dir/src/ShaderProgram.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liangyue/project/yly/DeepSDF/src/ShaderProgram.cpp > CMakeFiles/PreprocessMesh.dir/src/ShaderProgram.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liangyue/yly_ws/Deep_SDF/src/ShaderProgram.cpp > CMakeFiles/PreprocessMesh.dir/src/ShaderProgram.cpp.i
 
 CMakeFiles/PreprocessMesh.dir/src/ShaderProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PreprocessMesh.dir/src/ShaderProgram.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liangyue/project/yly/DeepSDF/src/ShaderProgram.cpp -o CMakeFiles/PreprocessMesh.dir/src/ShaderProgram.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liangyue/yly_ws/Deep_SDF/src/ShaderProgram.cpp -o CMakeFiles/PreprocessMesh.dir/src/ShaderProgram.cpp.s
 
 CMakeFiles/PreprocessMesh.dir/src/Utils.cpp.o: CMakeFiles/PreprocessMesh.dir/flags.make
 CMakeFiles/PreprocessMesh.dir/src/Utils.cpp.o: ../src/Utils.cpp
 CMakeFiles/PreprocessMesh.dir/src/Utils.cpp.o: CMakeFiles/PreprocessMesh.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liangyue/project/yly/DeepSDF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PreprocessMesh.dir/src/Utils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PreprocessMesh.dir/src/Utils.cpp.o -MF CMakeFiles/PreprocessMesh.dir/src/Utils.cpp.o.d -o CMakeFiles/PreprocessMesh.dir/src/Utils.cpp.o -c /home/liangyue/project/yly/DeepSDF/src/Utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liangyue/yly_ws/Deep_SDF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PreprocessMesh.dir/src/Utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PreprocessMesh.dir/src/Utils.cpp.o -MF CMakeFiles/PreprocessMesh.dir/src/Utils.cpp.o.d -o CMakeFiles/PreprocessMesh.dir/src/Utils.cpp.o -c /home/liangyue/yly_ws/Deep_SDF/src/Utils.cpp
 
 CMakeFiles/PreprocessMesh.dir/src/Utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PreprocessMesh.dir/src/Utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liangyue/project/yly/DeepSDF/src/Utils.cpp > CMakeFiles/PreprocessMesh.dir/src/Utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liangyue/yly_ws/Deep_SDF/src/Utils.cpp > CMakeFiles/PreprocessMesh.dir/src/Utils.cpp.i
 
 CMakeFiles/PreprocessMesh.dir/src/Utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PreprocessMesh.dir/src/Utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liangyue/project/yly/DeepSDF/src/Utils.cpp -o CMakeFiles/PreprocessMesh.dir/src/Utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liangyue/yly_ws/Deep_SDF/src/Utils.cpp -o CMakeFiles/PreprocessMesh.dir/src/Utils.cpp.s
 
 # Object files for target PreprocessMesh
 PreprocessMesh_OBJECTS = \
@@ -147,7 +147,7 @@ PreprocessMesh_EXTERNAL_OBJECTS =
 ../bin/PreprocessMesh: /usr/lib/x86_64-linux-gnu/libjpeg.so
 ../bin/PreprocessMesh: /usr/lib/x86_64-linux-gnu/libz.so
 ../bin/PreprocessMesh: CMakeFiles/PreprocessMesh.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liangyue/project/yly/DeepSDF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/PreprocessMesh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liangyue/yly_ws/Deep_SDF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/PreprocessMesh"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PreprocessMesh.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -159,6 +159,6 @@ CMakeFiles/PreprocessMesh.dir/clean:
 .PHONY : CMakeFiles/PreprocessMesh.dir/clean
 
 CMakeFiles/PreprocessMesh.dir/depend:
-	cd /home/liangyue/project/yly/DeepSDF/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liangyue/project/yly/DeepSDF /home/liangyue/project/yly/DeepSDF /home/liangyue/project/yly/DeepSDF/build /home/liangyue/project/yly/DeepSDF/build /home/liangyue/project/yly/DeepSDF/build/CMakeFiles/PreprocessMesh.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liangyue/yly_ws/Deep_SDF/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liangyue/yly_ws/Deep_SDF /home/liangyue/yly_ws/Deep_SDF /home/liangyue/yly_ws/Deep_SDF/build /home/liangyue/yly_ws/Deep_SDF/build /home/liangyue/yly_ws/Deep_SDF/build/CMakeFiles/PreprocessMesh.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PreprocessMesh.dir/depend
 

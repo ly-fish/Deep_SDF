@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/liangyue/project/yly/DeepSDF/third-party/cnpy/example1.cpp" "third-party/cnpy/CMakeFiles/example1.dir/example1.cpp.o" "gcc" "third-party/cnpy/CMakeFiles/example1.dir/example1.cpp.o.d"
+  "/home/liangyue/yly_ws/Deep_SDF/third-party/cnpy/example1.cpp" "third-party/cnpy/CMakeFiles/example1.dir/example1.cpp.o" "gcc" "third-party/cnpy/CMakeFiles/example1.dir/example1.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/liangyue/project/yly/DeepSDF/build/third-party/cnpy/CMakeFiles/cnpy.dir/DependInfo.cmake"
+  "/home/liangyue/yly_ws/Deep_SDF/build/third-party/cnpy/CMakeFiles/cnpy.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,7 +1,7 @@
 // Copyright 2004-present Facebook. All Rights Reserved.
 
 #include <pangolin/gl/glsl.h>
-
+    
 constexpr const char* shaderText = R"Shader(
 @start vertex
 #version 330 core

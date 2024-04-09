@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/liangyue/project/yly/DeepSDF/third-party/cnpy -isystem /usr/local/include/eigen3
+CXX_INCLUDES = -I/home/liangyue/yly_ws/Deep_SDF/third-party/cnpy -isystem /usr/local/include/eigen3
 
 CXX_FLAGS = 
 

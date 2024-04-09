@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liangyue/project/yly/DeepSDF
+CMAKE_SOURCE_DIR = /home/liangyue/yly_ws/Deep_SDF
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liangyue/project/yly/DeepSDF/build
+CMAKE_BINARY_DIR = /home/liangyue/yly_ws/Deep_SDF/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liangyue/project/yly/DeepSDF/build/CMakeFiles /home/liangyue/project/yly/DeepSDF/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liangyue/yly_ws/Deep_SDF/build/CMakeFiles /home/liangyue/yly_ws/Deep_SDF/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liangyue/project/yly/DeepSDF/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liangyue/yly_ws/Deep_SDF/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

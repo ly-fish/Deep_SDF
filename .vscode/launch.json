@@ -32,6 +32,33 @@
                 "-e",
                 "/home/liangyue/project/yly/DeepSDF/examples/tables"
             ]
+        },
+        {
+            "name": "Python Debugger: Expected object of backend CUDA",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "train_deep_sdf.py",
+            "args": [
+                "-e",
+                "examples/sofas"
+            ]
+        },
+        {
+            "name": "Python Debugger: Error(s) in loading state_dict for DataParallel",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "reconstruct.py",
+            "args": [
+                "-e",
+                "examples/sofas",
+                "-c",
+                "1000",
+                "--split",
+                "examples/splits/sv2_sofas_test.json",
+                "-d",
+                "data",
+                "--skip"
+            ]
         }
     ]
 }
